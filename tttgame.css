@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: palegreen;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content:center;
+}
+.game{
+    height:70vmin;
+    width:70vmin;
+    /* background-color: antiquewhite; */
+    display:flex;
+    flex-wrap:wrap;
+    gap:2.8vmin;
+    align-items: center;
+    justify-content:center;
+    margin-top:5vmin;
+    
+}
+.reset{
+    height: 5vmin;
+    /* width:15vmin; */
+    display: flex;
+    align-items: center;
+    padding:2px;
+}
+.resetdiv{
+    display:flex;
+    justify-content:center;
+    margin-top:5vmin;
+}
+.new-game{
+    background-color: black;
+    color:bisque;
+    font-size:3vmin;
+}
+
+
+
+.btns{
+    height:30%;
+    width:30%;
+    border-radius:2vmin;
+    border:none;
+    box-shadow: 3px 3px 3px gold;
+    font-size:15vmin;
+    background-color:green;
+    color:black;
+}
+.msgContainer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    margin:2vmin 0 2vmin 0;
+    height: 100vmin;
+    justify-content:center;
+    gap:5vmin;
+    
+}
+.msgContainerclick{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100%;
+    margin:2vmin 0 2vmin 0;
+    height: 10vmin;
+    justify-content:center;
+    gap:5vmin;
+    
+}
+.msgContainer button{
+    width:15vmin;
+    height:10vmin;
+}
+.msgp{
+    display: none;
+}
+.msgContainer p{
+    height:10vmin;
+    font-size: 10vmin;
+    color:brown;
+}
